@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SASI FX HUB PRO</title>
+<style>
+:root{--bg:#050e1b;--card:#0b192b;--card2:#071322;--line:#203652;--text:#edf4ff;--muted:#8ea2bc;--gold:#f5b51b;--green:#28db8a;--red:#ff6072;--blue:#59a9ff;--purple:#a66cff}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 50% -10%,#183451,#050e1b 45%);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.app{max-width:1400px;margin:auto;padding:20px}.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}.brand{display:flex;gap:12px;align-items:center}.logo{width:50px;height:50px;border:1px solid #80651a;border-radius:15px;display:grid;place-items:center;color:var(--gold);font-weight:950;background:#15180f}.brand h1{margin:0;font-size:25px}.brand h1 span{color:var(--gold)}.brand p{margin:3px 0 0;color:var(--muted);font-size:12px}.live{border:1px solid #196a4b;padding:10px 14px;border-radius:12px;font-size:12px}.live i{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--green);margin-right:6px}.nav{display:flex;gap:7px;overflow:auto;margin-bottom:15px}.nav button,.tf button{background:#081526;border:1px solid var(--line);color:#aebed2;border-radius:10px;padding:9px 13px;white-space:nowrap}.nav .active,.tf .active{background:var(--gold);color:#111;border-color:var(--gold)}.card{background:linear-gradient(180deg,#0d1d31,#091628);border:1px solid var(--line);border-radius:19px;padding:17px;box-shadow:0 15px 40px #0004}.toolbar{display:grid;grid-template-columns:250px 1fr 210px;gap:14px;align-items:end;margin-bottom:17px}.toolbar label,.card small{display:block;color:var(--muted);font-size:10px;letter-spacing:1px;margin-bottom:7px}.toolbar select{width:100%;padding:12px;background:#071322;color:var(--text);border:1px solid var(--line);border-radius:11px}.tf{display:flex;gap:6px;flex-wrap:wrap}.run,.alert{border:0;border-radius:11px;padding:13px;background:linear-gradient(135deg,#ffd02b,#e6a600);font-weight:900}.layout{display:grid;grid-template-columns:1fr 330px;gap:17px}.hero .head{display:flex;justify-content:space-between}.head h2{margin:0;font-size:27px}.head p{margin:4px 0;color:var(--muted)}#bias{padding:8px 11px;border-radius:10px;color:var(--green);background:#103b2c;height:max-content}.chart{height:330px;margin-top:14px;position:relative;overflow:hidden;border:1px solid #1c3450;border-radius:15px;background:linear-gradient(#12243a 1px,transparent 1px),linear-gradient(90deg,#12243a 1px,transparent 1px),#071323;background-size:55px 55px}.chart svg{position:absolute;inset:0;width:100%;height:100%}.chart polyline{fill:none;stroke:#57a9ff;stroke-width:3}.zone{position:absolute;z-index:2;left:28%;right:7%;top:54%;height:21%;border:1px dashed var(--gold);background:#f5b51b1a;border-radius:7px}.zone span{float:right;padding:6px;color:#ffd45c;font-size:10px;font-weight:900}.tags{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}.tags b{font-size:10px;padding:7px 9px;border:1px solid var(--line);border-radius:8px;color:#aebed2}.statusbar{display:grid;grid-template-columns:1fr 1.5fr .7fr;gap:15px;margin-top:15px}.statusbar h3{color:var(--gold);font-size:24px;margin:3px 0}.statusbar p,.statusbar li{color:var(--muted);font-size:12px}.statusbar ul{margin:5px 0;padding-left:17px}.confidence strong{font-size:25px}.confidence div{height:7px;background:#1a2e46;border-radius:99px;margin-top:8px}.confidence i{display:block;height:100%;width:0;background:var(--green);border-radius:99px}.trade{margin-top:15px}.section-title{font-size:15px;font-weight:900;margin-bottom:12px}.section-title span{color:var(--gold)}.tradegrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.bigzone{background:#11122d;border:1px solid #4c3d78;border-radius:14px;padding:17px}.bigzone strong{display:block;font-size:27px;color:#bb91ff;margin:8px 0}.bigzone p{color:var(--muted);font-size:12px}.levels{display:grid;grid-template-columns:1fr 1fr;gap:8px}.levels p{margin:0;padding:10px;background:#071322;border-radius:10px}.levels span{display:block;color:var(--muted);font-size:10px}.levels b{display:block;margin-top:5px}.alert{margin-top:12px}.checks{display:flex;flex-direction:column;gap:7px}.check,.scan{display:flex;justify-content:space-between;gap:7px;padding:10px;border:1px solid #18304b;background:#071423;border-radius:10px;font-size:12px}.ok{color:var(--green)}.pending{color:var(--gold)}.scanner{margin-top:15px}.scan em{color:#78e7b0;font-style:normal}.scan span{color:var(--gold)}footer{text-align:center;color:#647994;font-size:10px;padding:18px}@media(max-width:900px){.toolbar,.layout{grid-template-columns:1fr}.statusbar{grid-template-columns:1fr}.toolbar .run{width:100%}}@media(max-width:600px){.app{padding:10px}.tradegrid{grid-template-columns:1fr}.chart{height:270px}.top{align-items:flex-start}.live{display:none}}
+
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="top">
+    <div class="brand"><div class="logo">SASI</div><div><h1>SASI FX HUB <span>PRO</span></h1><p>Smart Money Concepts • Market Intelligence</p></div></div>
+    <div class="live"><i></i> MARKET ENGINE</div>
+  </header>
+
+  <nav class="nav">
+    <button class="active">Dashboard</button><button>Scanner</button><button>Chart & Analysis</button>
+    <button>Trade Plan</button><button>Alerts</button><button>Backtest</button><button>Watchlist</button><button>Settings</button>
+  </nav>
+
+  <section class="toolbar card">
+    <div><label>MARKET</label><select id="symbol">
+      <option value="XAUUSD">XAUUSD — Gold</option><option value="BTCUSD">BTC/USD — Bitcoin</option>
+      <option value="ETHUSD">ETH/USD — Ethereum</option><option value="EURUSD">EUR/USD</option>
+      <option value="GBPUSD">GBP/USD</option><option value="USDJPY">USD/JPY</option>
+      <option value="AUDUSD">AUD/USD</option><option value="USDCAD">USD/CAD</option>
+      <option value="NAS100">NAS100 — Nasdaq</option><option value="US30">US30 — Dow Jones</option>
+      <option value="SPX500">SPX500 — S&P 500</option>
+    </select></div>
+    <div><label>TIMEFRAME</label><div class="tf" id="tf">
+      <button class="active" data-tf="1M">1M</button><button data-tf="5M">5M</button><button data-tf="15M">15M</button>
+      <button data-tf="30M">30M</button><button data-tf="1H">1H</button><button data-tf="4H">4H</button><button data-tf="1D">1D</button>
+    </div></div>
+    <button class="run" id="run">RUN FULL ANALYSIS</button>
+  </section>
+
+  <main class="layout">
+    <section>
+      <div class="card hero">
+        <div class="head"><div><h2 id="name">XAUUSD</h2><p id="price">Loading…</p></div><strong id="bias">—</strong></div>
+        <div class="chart"><div class="zone"><span>INTEREST ZONE</span></div>
+          <div class="line l1"></div><div class="line l2"></div><div class="line l3"></div>
+          <svg viewBox="0 0 900 320" preserveAspectRatio="none"><polyline id="wave" points="0,250 70,225 130,240 195,180 260,205 320,135 380,165 450,105 515,135 575,90 640,115 705,70 770,105 830,60 900,82"/></svg>
+        </div>
+        <div class="tags"><b>SMC</b><b>LIQUIDITY</b><b>ORDER BLOCK</b><b>FVG</b><b>FIB 50–61.8%</b><b>MSS/CHoCH</b></div>
+      </div>
+
+      <div class="statusbar card">
+        <div><small>STATUS</small><h3 id="status">WAIT</h3><p id="reason">Run analysis.</p></div>
+        <div><small>WHY WE WAIT</small><ul id="reasons"><li>Waiting for live analysis</li></ul></div>
+        <div class="confidence"><small>CONFIDENCE</small><strong id="confidence">—</strong><div><i id="bar"></i></div></div>
+      </div>
+
+      <div class="card trade">
+        <div class="section-title">TRADE PLAN <span id="direction">(WAIT)</span></div>
+        <div class="tradegrid">
+          <div class="bigzone"><small>INTEREST ZONE</small><strong id="zoneText">—</strong><p>Entry remains locked until confirmation.</p></div>
+          <div class="levels"><p><span>ENTRY</span><b id="entry">—</b></p><p><span>SL</span><b id="sl">—</b></p><p><span>TP1</span><b id="tp1">—</b></p><p><span>TP2</span><b id="tp2">—</b></p><p><span>TP3</span><b id="tp3">—</b></p><p><span>R:R</span><b id="rr">—</b></p></div>
+        </div>
+        <button class="alert">🔔 SET ALERT FOR INTEREST ZONE</button>
+      </div>
+    </section>
+
+    <aside>
+      <div class="card">
+        <div class="section-title">CONFIRMATION ENGINE</div>
+        <div id="checks"></div>
+      </div>
+      <div class="card scanner">
+        <div class="section-title">MARKET SCANNER</div>
+        <div class="scan"><b>XAUUSD</b><span>WAIT</span><em>87%</em></div>
+        <div class="scan"><b>BTC/USD</b><span>WAIT</span><em>82%</em></div>
+        <div class="scan"><b>EUR/USD</b><span>IN ZONE</span><em>78%</em></div>
+        <div class="scan"><b>GBP/USD</b><span>CONFIRMED</span><em>91%</em></div>
+        <div class="scan"><b>NAS100</b><span>WAIT</span><em>75%</em></div>
+      </div>
+    </aside>
+  </main>
+  <footer>SASI FX HUB PRO v2 • Analysis and decision-support software • Validate strategies before live trading.</footer>
+</div>
+<script>
+const API_BASE = "http://localhost:8000";
+let timeframe = "1M";
+
+const $ = id => document.getElementById(id);
+const money = n => n == null ? "—" : Number(n).toLocaleString(undefined,{maximumFractionDigits:5});
+
+document.querySelectorAll("#tf button").forEach(b => b.onclick = () => {
+  document.querySelectorAll("#tf button").forEach(x=>x.classList.remove("active"));
+  b.classList.add("active");
+  timeframe = b.dataset.tf;
+});
+
+async function runAnalysis(){
+  const symbol = $("symbol").value;
+  $("run").textContent = "ANALYZING…";
+  try{
+    const res = await fetch(`${API_BASE}/api/analysis/${symbol}?timeframe=${timeframe}`);
+    const data = await res.json();
+    if(!res.ok) throw new Error(data.detail || "Analysis failed");
+    render(data);
+  }catch(e){
+    $("status").textContent = "DATA ERROR";
+    $("reason").textContent = e.message;
+  }finally{
+    $("run").textContent = "RUN FULL ANALYSIS";
+  }
+}
+
+function render(d){
+  $("name").textContent = d.symbol;
+  $("price").textContent = `${money(d.price)} • ${d.timeframe}`;
+  $("bias").textContent = d.bias + " BIAS";
+  $("status").textContent = d.status.replace("_"," ");
+  $("confidence").textContent = d.confidence + "%";
+  $("bar").style.width = d.confidence + "%";
+  $("zoneText").textContent = `${money(d.interest_low)} – ${money(d.interest_high)}`;
+  $("entry").textContent = money(d.entry);
+  $("sl").textContent = money(d.sl);
+  $("tp1").textContent = money(d.tp1);
+  $("tp2").textContent = money(d.tp2);
+  $("tp3").textContent = money(d.tp3);
+  $("rr").textContent = d.rr ? "1 : " + d.rr : "—";
+  $("direction").textContent = d.bias === "NEUTRAL" ? "(WAIT)" : `(${d.bias === "BULLISH" ? "BUY" : "SELL"} SETUP)`;
+  $("reason").textContent = d.status === "WAIT" ? "Price has not reached the Interest Zone or structure is not ready." :
+    d.status === "IN_ZONE" ? "Price is inside the Interest Zone. Wait for confirmation." :
+    d.status === "CONFIRMED" ? "Confirmation conditions passed. Review the Trade Plan before execution." :
+    "Setup invalidated.";
+
+  $("reasons").innerHTML = d.reasons.map(x=>`<li>${x}</li>`).join("");
+
+  const labels = {
+    higher_timeframe_alignment:"HTF structure alignment",
+    liquidity_sweep:"Liquidity sweep",
+    mss_or_choch:"MSS / CHoCH",
+    fvg:"FVG condition",
+    interest_zone:"Price in Interest Zone"
+  };
+  $("checks").innerHTML = Object.entries(d.confirmations).map(([k,v]) =>
+    `<div class="check"><b>${labels[k] || k}</b><span class="${v?'ok':'pending'}">${v?'✓ PASS':'WAIT'}</span></div>`
+  ).join("");
+}
+
+$("run").onclick = runAnalysis;
+runAnalysis();
+
+</script>
+</body>
+</html>
